@@ -19,6 +19,7 @@
     "test": "cross-env jest",
     "seed": "cross-env medusa seed -f ./data/seed.json",
     "start": "cross-env yarn build && medusa start",
+    "start:admin": "cross-env yarn build && medusa-admin develop",
     "start:custom": "cross-env yarn build && node --preserve-symlinks index.js",
     "dev": "cross-env yarn build && medusa develop",
     "build:admin": "cross-env medusa-admin build"
