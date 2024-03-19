@@ -45,13 +45,25 @@ const plugins = [
     },
   },
   // To enable the admin plugin, uncomment the following lines and run `yarn add @medusajs/admin`
-  // {
-  //   resolve: "@medusajs/admin",
-  //   /** @type {import('@medusajs/admin').PluginOptions} */
-  //   options: {
-  //     autoRebuild: true,
-  //   },
-  // },
+  {
+    resolve: "@medusajs/admin",
+    /** @type {import('@medusajs/admin').PluginOptions} */
+    options: {
+      serve: true,
+      autoRebuild: true,
+      path: "/app",
+      outDir: "build",
+      develop: {
+        open: true,
+        port: 7001,
+        logLevel: "error",
+        stats: "normal",
+        allowedHosts: "auto",
+        webSocketURL: undefined,
+      },
+
+    },
+  },
 ]
 
 const modules = {
