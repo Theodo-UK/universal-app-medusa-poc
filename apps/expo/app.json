@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "universal-medusa-app",
+    "slug": "universal-medusa-app",
+    "version": "1.0.0",
+    "scheme": "medusauniversal",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.medusa.universal"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "67b76865-0bdd-4a76-a9e8-db716bd5bd2c"
+      }
+    }
+  }
+}
