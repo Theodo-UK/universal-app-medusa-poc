@@ -14,6 +14,7 @@
     "expo-router": "^1.5.3",
     "expo-splash-screen": "~0.18.2",
     "expo-status-bar": "^1.4.4",
+    "expo-updates": "~0.16.4",
     "install": "^0.13.0",
     "npx": "^10.2.2",
     "patch-package": "^8.0.0",
