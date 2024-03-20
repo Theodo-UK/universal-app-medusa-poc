@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "universal-medusa-app",
-    "slug": "universal-medusa-app",
+    "slug": "universal-app-medusa-poc",
     "version": "1.0.0",
     "scheme": "medusauniversal",
     "platforms": [
@@ -13,8 +13,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "67b76865-0bdd-4a76-a9e8-db716bd5bd2c"
+        "projectId": "9a6460b8-7a21-4d6d-b553-205c8299b9d1"
       }
-    }
+    },
+    "owner": "justkek"
   }
 }
