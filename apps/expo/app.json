@@ -4,17 +4,20 @@
     "slug": "universal-app-medusa-poc",
     "version": "1.0.0",
     "scheme": "medusauniversal",
-    "platforms": [
-      "ios",
-      "android"
-    ],
+    "platforms": ["ios", "android"],
     "ios": {
       "bundleIdentifier": "com.medusa.universal"
     },
     "extra": {
       "eas": {
         "projectId": "f979f0f6-43d1-4e6f-8ec0-610a6210bb5d"
-      }
+      },
+      "updates": {
+        "requestHeaders": {
+          "expo-channel-name": "main"
+        }
+      },
+      "runtimeVersion": "1.0.0"
     },
     "owner": "theodo-uk"
   }
